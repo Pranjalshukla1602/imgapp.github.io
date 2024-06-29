@@ -1,0 +1,53 @@
+/* Floating Button */
+.float{
+	position:fixed;
+  bottom:8%;
+	width:60px;
+	height:60px;
+	right:2%;
+	background-color: #0A5C8F;
+	color:#FFF;
+	border-radius:50%;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1.5, .5);
+  animation-iteration-count: infinite;
+}
+.float:hover {
+  color: #9DBFAF;
+  animation: none;
+}
+.my-float{
+	margin-top:22px;
+}
+/*Bounce animation for the button*/
+@keyframes bounce {
+  from {
+      transform: translate3d(0, 0, 0);
+  }
+  to {
+      transform: translate3d(0, -50px, 0);
+  }
+}
+/*Prefix Support for floating button*/      
+float {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-direction: none ;
+  -webkit-animation-timing-function: cubic-bezier(
+          .5, 0.05, 1, .5);
+  -webkit-animation-iteration-count: infinite;
+  }
+
+@-webkit-keyframes bounce {
+  from {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 100px, 0);
+  }
+  to {
+      -webkit-transform: translate3d(0, 200px, 0);
+      transform: translate3d(0, 300px, 0);
+  }
+}

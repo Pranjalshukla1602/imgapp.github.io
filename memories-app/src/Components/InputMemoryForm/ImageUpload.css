@@ -1,0 +1,55 @@
+.image-upload__preview {
+  width: 10rem;
+  height: 20rem;
+  border-radius: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+  
+}
+.icon2{
+  height: 100px;
+  width: 100px;
+  color: azure;
+  cursor: pointer;
+}
+
+
+.image-upload__preview img {
+  width: 350px;
+ 
+  justify-items: center;
+  padding-top: 10%;
+}
+
+.image-upload-button {
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  height: 275px;
+  width: 275px;
+  font-size: 50px;
+  
+}
+.iconEdit{
+  height: 35px;
+  width: 35px;
+  color:aliceblue;
+}
+.head{
+  font-size:larger;
+  margin-bottom: 4px;
+  font-family: sans-serif;
+}
+.image-upload-button:hover {
+  background-color: transparent;
+  color: rgb(252, 252, 252);
+}
+.user-note-collection-main {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

@@ -1,0 +1,34 @@
+.modal {
+  justify-content: center;
+  align-items: center;
+}
+
+.updateinput {
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 8px;
+  width: 90%;
+  margin-left: 70%,
+}
+.updateModal {
+  justify-content: center;
+}
+/*Adding media queries for responsiveness*/
+@media (max-width: 680px) {
+  .modal-card-customization {
+    height: 100vh;
+    max-height: 100vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .ui.modal {
+    flex-direction: column;
+    align-items: center;
+    max-width: 60% !important;
+  }
+}
+
